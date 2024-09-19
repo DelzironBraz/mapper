@@ -1,4 +1,3 @@
-import React from "react";
 import MiningAreaMap from "./components/MiningAreaMap/MiningAreaMap";
 
 const coordinates = [
@@ -11,7 +10,7 @@ const coordinates = [
 const App = () => {
   return (
     <div>
-      <h1>Mapa da Área de Mineração</h1>
+      <h1>Mapa da Área</h1>
       <MiningAreaMap coordinates={coordinates} />
     </div>
   );
